@@ -1,4 +1,4 @@
-# api_api
+# api develop basic structure (for future projects)
 
 ### Observaçes
 
