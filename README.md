@@ -72,9 +72,5 @@ curl -X GET "localhost:8000/v1/transacoes/extrato/4324/?begin=1546359924&end=157
 ```
 
 
-### Resultado do teste de SQL Injection com uma das URLs
-Mesmo sendo métodos HTTP GET, não há indícios de falsificação dos parâmetros para captura de informações do banco de dados. Um dos pontos chave do django é sua camada entre o banco e a aplicação, não há queries criadas a mão. Todo o contato com o banco é feito por métodos do próprio framework. Limitando assim o uso malicioso da interação com a api
-
-![alt text](https://github.com/henriqueblobato/api_api/blob/master/injection.png)
 
 
